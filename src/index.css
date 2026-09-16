@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+/* span.logo { */
+  /* background: linear-gradient(to right, #a855f7, #2563eb, rgb(128, 0, 60)); */
+  /* background-clip: text; */
+  /* color: transparent; */
+/* } */
+
+
+a.text-sm {
+    text-decoration:underline;
+}
+   
