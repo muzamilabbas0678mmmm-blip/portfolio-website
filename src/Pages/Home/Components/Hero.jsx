@@ -25,7 +25,7 @@ const Hero = ({ name, role,Discription}) => {
 
             <div className="mt-8 flex flex-wrap gap-6">
               <a
-                href="/projects"
+                href="/Projects"
                 className="rounded-lg bg-purple-700 px-6 py-3.5 font-semibold text-white shadow-lg shadow-orange-600/20 transition hover:-translate-y-0.5 hover:bg-blue-700"
               >
                 View My Work →
