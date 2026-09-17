@@ -13,7 +13,7 @@ const projects = [
     title: "Weather App",
     description:
       "A responsive weather application built with React that displays weather information in a clean and interactive interface.",
-    image: "/projects/weather-app.png",
+    image: "weather-app.png",
     technologies: [
       { name: "React", icon: <FaReact /> },
       { name: "JavaScript", icon: <FaJs /> },
@@ -25,7 +25,7 @@ const projects = [
     title: "JavaScript Calculator",
     description:
       "A simple calculator built with HTML, CSS and JavaScript to practice DOM manipulation, events and JavaScript logic.",
-    image: "/projects/calculator.png",
+    image: "/calculator.png",
     technologies: [
       { name: "HTML", icon: <FaHtml5 /> },
       { name: "CSS", icon: <FaHtml5 /> },
@@ -48,7 +48,7 @@ const projects = [
     title: "Sundown Studio",
     description:
       "A creative website recreated with HTML, CSS and JavaScript to practice modern layouts, animations and interactive web elements.",
-    image: "/projects/sundown-studio.png",
+    image: "sundown-studio.png",
     technologies: [
       { name: "HTML", icon: <FaHtml5 /> },
       { name: "CSS", icon: <FaHtml5 /> },
