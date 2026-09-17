@@ -7,7 +7,7 @@ import {
   FaGithub,
 } from "react-icons/fa";
 
-import { SiTailwindcss,SiVisualstudiocode } from "react-icons/si";
+import { SiTailwindcss } from "react-icons/si";
 
 const Skills = () => {
   return (
@@ -130,8 +130,7 @@ const Skills = () => {
             Tools & Workflow
           </h2>
 
-          <div className="grid gap-5 sm:grid-cols-2 md:grid-cols-3">
-            {/* Git */}
+
             <div className="flex items-center gap-5 rounded-2xl border border-slate-800 bg-slate-900/70 p-6 transition hover:border-orange-500">
               <FaGitAlt className="text-5xl text-orange-500" />
 
@@ -156,18 +155,18 @@ const Skills = () => {
               </div>
             </div>
 
-            <div className="flex items-center gap-5 rounded-2xl border border-slate-800 bg-slate-900/70 p-6 transition hover:border-blue-500">
-              <SiVisualstudiocode className="text-5xl text-blue-400" />
+        
+          
 
-              <div>
-                <h3 className="font-semibold text-white">VS Code</h3>
+          
+          
 
-                <p className="mt-1 text-sm text-slate-500">
-                  My primary code editor and development environment.
-                </p>
-              </div>
-            </div>
-          </div>
+            
+                  
+                
+              
+            
+          
         </section>
 
         <section className="mt-16 rounded-2xl border border-slate-800 bg-gradient-to-r from-blue-950/60 to-purple-950/60 p-8 md:p-10">
