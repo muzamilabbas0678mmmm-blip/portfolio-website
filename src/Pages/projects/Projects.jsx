@@ -25,7 +25,7 @@ const projects = [
     title: "JavaScript Calculator",
     description:
       "A simple calculator built with HTML, CSS and JavaScript to practice DOM manipulation, events and JavaScript logic.",
-    image: "/calculator.png",
+    image: "calculator.png",
     technologies: [
       { name: "HTML", icon: <FaHtml5 /> },
       { name: "CSS", icon: <FaHtml5 /> },
@@ -95,11 +95,11 @@ function Projects() {
               <img
                 src={project.image}
                 alt={project.title}
-                className="h-full w-full object-cover transition duration-700 group-hover:scale-105"
+                className="h-full w-full rounded-2xl  transition duration-800 group-hover:scale-90"
               />
 
               {/* Image Overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-80" />
+              <div className="absolute inset-0 bg-gradient-to-t from-slate-350 via-transparent to-transparent opacity-100" />
 
             </div>
 
