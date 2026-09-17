@@ -130,43 +130,29 @@ const Skills = () => {
             Tools & Workflow
           </h2>
 
+          <div className="flex items-center gap-5 rounded-2xl border border-slate-800 bg-slate-900/70 p-6 transition hover:border-orange-500">
+            <FaGitAlt className="text-5xl text-orange-500" />
 
-            <div className="flex items-center gap-5 rounded-2xl border border-slate-800 bg-slate-900/70 p-6 transition hover:border-orange-500">
-              <FaGitAlt className="text-5xl text-orange-500" />
+            <div>
+              <h3 className="font-semibold text-white">Git</h3>
 
-              <div>
-                <h3 className="font-semibold text-white">Git</h3>
-
-                <p className="mt-1 text-sm text-slate-500">
-                  Version control for development projects.
-                </p>
-              </div>
+              <p className="mt-1 text-sm text-slate-500">
+                Version control for development projects.
+              </p>
             </div>
+          </div>
 
-            <div className="flex items-center gap-5 rounded-2xl border border-slate-800 bg-slate-900/70 p-6 transition hover:border-purple-500">
-              <FaGithub className="text-5xl text-white" />
+          <div className="flex items-center gap-5 rounded-2xl border border-slate-800 bg-slate-900/70 p-6 transition hover:border-purple-500">
+            <FaGithub className="text-5xl text-white" />
 
-              <div>
-                <h3 className="font-semibold text-white">GitHub</h3>
+            <div>
+              <h3 className="font-semibold text-white">GitHub</h3>
 
-                <p className="mt-1 text-sm text-slate-500">
-                  Managing and sharing development projects.
-                </p>
-              </div>
+              <p className="mt-1 text-sm text-slate-500">
+                Managing and sharing development projects.
+              </p>
             </div>
-
-        
-          
-
-          
-          
-
-            
-                  
-                
-              
-            
-          
+          </div>
         </section>
 
         <section className="mt-16 rounded-2xl border border-slate-800 bg-gradient-to-r from-blue-950/60 to-purple-950/60 p-8 md:p-10">
