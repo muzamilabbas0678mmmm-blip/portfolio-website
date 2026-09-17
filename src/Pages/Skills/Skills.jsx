@@ -25,7 +25,7 @@ const Skills = () => {
             </span>
           </h1>
 
-          <p className="mx-auto mt-5 max-w-2xl text-slate-400">
+          <p className="mx-auto mt-5 max-w-2xl text-slate-400 font-semibold">
             I am continuously learning and improving my skills to build modern,
             responsive and user-friendly web applications.
           </p>
