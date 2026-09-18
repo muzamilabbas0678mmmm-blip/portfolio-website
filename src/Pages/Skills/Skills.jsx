@@ -5,9 +5,14 @@ import {
   FaReact,
   FaGitAlt,
   FaGithub,
-} from "react-icons/fa";
+  FaChrome,
+  FaPlug,
+  FaCodeBranch,
+  FaPalette,
+} from "react-icons/fa"
 
-import { SiTailwindcss } from "react-icons/si";
+import { SiApifox, SiCplusplus, SiPython, SiTailwindcss, SiVite } from "react-icons/si";
+import { VscVscode } from "react-icons/vsc";
 
 const Skills = () => {
   return (
@@ -36,7 +41,7 @@ const Skills = () => {
             Frontend Development
           </h2>
 
-          <div className="grid gap-5 sm:grid-cols-2 md:grid-cols-4">
+          <div className="grid gap-5 sm:grid-cols-2 md:grid-cols-5">
             <div className="group rounded-2xl border border-slate-800 bg-slate-900/70 p-6 text-center transition duration-300 hover:-translate-y-2 hover:border-orange-500">
               <FaHtml5 className="mx-auto text-5xl text-orange-500 transition group-hover:scale-110" />
 
@@ -46,6 +51,8 @@ const Skills = () => {
                 Creating structured and semantic web pages.
               </p>
             </div>
+
+
 
             <div className="group rounded-2xl border border-slate-800 bg-slate-900/70 p-6 text-center transition duration-300 hover:-translate-y-2 hover:border-blue-500">
               <FaCss3Alt className="mx-auto text-5xl text-blue-500 transition group-hover:scale-110" />
@@ -69,7 +76,8 @@ const Skills = () => {
               </p>
             </div>
 
-            <div className="group rounded-2xl border border-slate-800 bg-slate-900/70 p-6 text-center transition duration-300 hover:-translate-y-2 hover:border-cyan-500">
+            <div className="group rounded-2xl border border-slate-800 bg-slate-900/70 p-6 text-center
+             transition duration-300 hover:-translate-y-2 hover:border-cyan-500">
               <FaReact className="mx-auto text-5xl text-cyan-400 transition group-hover:scale-110" />
 
               <h3 className="mt-4 text-lg font-semibold text-white">React</h3>
@@ -78,42 +86,53 @@ const Skills = () => {
                 Components, props, routing and modern UI development.
               </p>
             </div>
+
+            <div className="group rounded-2xl border border-slate-800 bg-slate-900/70 p-6 text-center
+ transition duration-300 hover:-translate-y-2 hover:border-cyan-500">
+  <SiTailwindcss className="mx-auto text-5xl text-cyan-400 transition group-hover:scale-110" />
+  <h3 className="mt-4 text-lg font-semibold text-white">Tailwind CSS</h3>
+  <p className="mt-2 text-sm text-slate-500">
+    Building modern and responsive interfaces with utility classes.
+  </p>
+</div>
+
+            
           </div>
         </section>
 
         <section className="mt-16">
-          <h2 className="mb-7 text-2xl font-bold text-white">Styling & UI</h2>
+          <h2 className="mb-7 text-2xl font-bold text-white">EXTRA SKILLS</h2>
 
-          <div className="grid gap-5 sm:grid-cols-2 md:grid-cols-3">
+          <div className="grid gap-5 sm:grid-cols-2 md:grid-cols-5">
             {/* Tailwind */}
-            <div className="group rounded-2xl border border-slate-800 bg-gradient-to-br from-blue-950/40 to-slate-900 p-7 transition duration-300 hover:-translate-y-2 hover:border-cyan-500">
-              <SiTailwindcss className="text-5xl text-cyan-400 transition group-hover:scale-110" />
+            <div className="group rounded-2xl border border-slate-800 bg-gradient-to-br from-blue-950/40
+             to-slate-900 p-7 transition duration-300 hover:-translate-y-2 hover:border-cyan-500">
+              <SiCplusplus className="text-5xl text-cyan-400 transition group-hover:scale-110" />
 
               <h3 className="mt-5 text-xl font-semibold text-white">
-                Tailwind CSS
+                C++
               </h3>
 
               <p className="mt-2 text-sm leading-6 text-slate-500">
-                Building modern and responsive interfaces with utility classes.
+                Understanding the core concepts of DSA and exploring how things actually work.
               </p>
             </div>
 
             <div className="group rounded-2xl border border-slate-800 bg-gradient-to-br from-purple-950/40 to-slate-900 p-7 transition duration-300 hover:-translate-y-2 hover:border-purple-500">
-              <div className="text-5xl">📱</div>
-
+              <div className="text-5xl"></div>
+             <SiPython className="text-5xl text-yellow-400 transition group-hover:scale-110" />
               <h3 className="mt-5 text-xl font-semibold text-white">
-                Responsive Design
+                Python
               </h3>
 
               <p className="mt-2 text-sm leading-6 text-slate-500">
-                Making websites work smoothly on mobile, tablet and desktop
-                screens.
+                This is nearer to chatboot system,I am trying to learn python for future use.
               </p>
             </div>
 
             <div className="group rounded-2xl border border-slate-800 bg-gradient-to-br from-blue-950/40 to-purple-950/40 p-7 transition duration-300 hover:-translate-y-2 hover:border-blue-500">
-              <div className="text-5xl">🎨</div>
-
+              <div className="text-5xl"></div>
+              <FaPalette className="text-5xl text-rose-500 transition group-hover:scale-110" />
               <h3 className="mt-5 text-xl font-semibold text-white">
                 Modern UI
               </h3>
@@ -122,27 +141,60 @@ const Skills = () => {
                 Creating clean, attractive and easy-to-use interfaces.
               </p>
             </div>
+
+             <div className="group rounded-2xl border border-slate-800 bg-gradient-to-br from-blue-950/40
+  to-slate-900 p-7 transition duration-300 hover:-translate-y-2 hover:border-cyan-500">
+   <FaPlug className="text-5xl text-violet-700 transition group-hover:scale-110" />
+   <h3 className="mt-5 text-xl font-semibold text-white">
+     API integration
+   </h3>
+   <p className="mt-2 text-sm leading-6 text-slate-500">
+     Connecting applications with external APIs to fetch and use data.
+   </p>
+ </div>
+
+  <div className="group rounded-2xl border border-slate-800 bg-gradient-to-br from-blue-950/40
+  to-slate-900 p-7 transition duration-300 hover:-translate-y-2 hover:border-cyan-500">
+   <FaCodeBranch className="text-5xl text-green-800 transition group-hover:scale-110" />
+   <h3 className="mt-5 text-xl font-semibold text-white">
+     Component-Based Development
+   </h3>
+   <p className="mt-2 text-sm leading-6 text-slate-500">
+     Building reusable and organized UI components for web applications.
+   </p>
+ </div>
           </div>
         </section>
-
-        <section className="mt-16">
+         
+        <section className="mt-12">
           <h2 className="mb-7 text-2xl font-bold text-white">
             Tools & Workflow
           </h2>
+           <div className="flex flex-col gap-6">
+          
+   <div className="flex items-center gap-5 rounded-2xl border border-slate-800 bg-slate-900/70
+    p-6 transition hover:border-orange-500">
+     <FaGitAlt className="text-5xl text-orange-500" />
+     <div>
+       <h3 className="font-semibold text-white">Git</h3>
+       <p className="mt-1 text-sm text-slate-500">
+         Version control for development projects.
+       </p>
+     </div>
+   </div>
+   <div className="flex items-center gap-5 rounded-2xl border border-slate-800 bg-slate-900/70
+    p-6 transition hover:border-blue-500">
+     <VscVscode className="text-5xl text-blue-500" />
+     <div>
+       <h3 className="font-semibold text-white">vscode</h3>
+       <p className="mt-1 text-sm text-slate-500">
+        A user friendly code editor with multiple features.
+       </p>
+     </div>
+   </div>
 
-          <div className="flex items-center gap-5 rounded-2xl border border-slate-800 bg-slate-900/70 p-6 transition hover:border-orange-500">
-            <FaGitAlt className="text-5xl text-orange-500" />
-
-            <div>
-              <h3 className="font-semibold text-white">Git</h3>
-
-              <p className="mt-1 text-sm text-slate-500">
-                Version control for development projects.
-              </p>
-            </div>
-          </div>
-
-          <div className="flex items-center gap-5 rounded-2xl border border-slate-800 bg-slate-900/70 p-6 transition hover:border-purple-500">
+          <div className="flex items-center gap-5 rounded-2xl border border-slate-800 bg-slate-900/70 
+          p-6 transition hover:border-purple-900">
             <FaGithub className="text-5xl text-white" />
 
             <div>
@@ -153,7 +205,31 @@ const Skills = () => {
               </p>
             </div>
           </div>
+
+          <div className="flex items-center gap-5 rounded-2xl border border-slate-800 bg-slate-900/70
+ p-6 transition hover:border-purple-500">
+  <SiVite className="text-5xl text-blue-900" />
+  <div>
+    <h3 className="font-semibold text-white">Vite</h3>
+    <p className="mt-1 text-sm text-slate-500">
+     A fast build tool used to develop and run modern web projects.
+    </p>
+  </div>
+</div>
+
+<div className="flex items-center gap-5 rounded-2xl border border-slate-800 bg-slate-900/70
+ p-6 transition hover:border-red-700">
+  <FaChrome className="text-5xl text-red-700" />
+  <div>
+    <h3 className="font-semibold text-white">Chrome DevTools</h3>
+    <p className="mt-1 text-sm text-slate-500">
+     A browser tool used to inspect, debug, and test web applications.
+    </p>
+  </div>
+</div>
+          </div>
         </section>
+        
 
         <section className="mt-16 rounded-2xl border border-slate-800 bg-gradient-to-r from-blue-950/60 to-purple-950/60 p-8 md:p-10">
           <div className="md:flex md:items-center md:justify-between">
