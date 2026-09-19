@@ -1,11 +1,10 @@
-import Navbar from "../Home/Components/Navbar.jsx";
 import Hero from "../Home/Components/Hero.jsx";
 
 
 const Home = () => {
   return (
     <div>  
-      <Navbar />
+      
       <main>
         <Hero 
            name="Muzamil Abbas"

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="fixed top-0 left-0 w-full border-b border-slate-50/50 bg-slate-950/90 backdrop-blur-md">
+   <nav className="fixed inset-x-0 top-0 z-[9999] w-full border-b border-slate-50/50 bg-slate-950/95 backdrop-blur-md">
       <div className="mx-auto flex max-w-9xl items-center justify-between px-5 py-5 lg:px-8">
 
         <div className="text-3xl blue font-bold text-slate-300">
@@ -11,7 +11,7 @@ const Navbar = () => {
             <img
               className="w-17 h-10"
               src="Navbar designed blue purple stylish logo.png"
-              alt=""
+              alt="#"
             />
           </span>
         </div>
@@ -20,7 +20,7 @@ const Navbar = () => {
 
           <Link
             to="/"
-            className="text-sm font-medium text-blue-600"
+            className="text-sm font-medium"
           >
             Home
           </Link>
