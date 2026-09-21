@@ -21,7 +21,7 @@ function Contacts() {
       {/* Main Contact Container */}
       <div className="mt-15 relative z-10 mx-auto max-w-6xl overflow-hidden rounded-lg border border-purple/20 bg-slate-550/80 shadow-5xl">
         {/* ================= CONTACT AREA ================= */}
-        <div className="grid gap-8 bg-gradient-to-br from-slate-950 via-blue-950 to-slate-950 px-7 py-8 md:grid-cols-2 md:px-10 md:py-10">
+        <div className="grid gap-8 bg-gradient-to-br from-slate-950 via-blue-950 to-slate-950 px-3 py-8 md:grid-cols-2 md:px-10 md:py-10">
           {/* LEFT SIDE */}
           <div className="flex flex-col justify-center">
             {/* Small Label */}

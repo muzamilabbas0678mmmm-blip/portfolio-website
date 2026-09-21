@@ -22,7 +22,7 @@ const Navbar = () => {
 
 
         {/* Desktop Menu */}
-        <div className="hidden items-center gap-10 rounded-lg border border-slate-700 bg-gradient-to-r from-blue-800/40 to-purple-800/70 px-4 py-2 text-slate-200 md:flex">
+        <div className="hidden items-center gap-10 rounded-lg border border-slate-700 bg-gradient-to-r from-blue-800/40 to-purple-700/70 to-red-900/70 px-4 py-2 text-slate-200 md:flex">
 
           <Link
             to="/"

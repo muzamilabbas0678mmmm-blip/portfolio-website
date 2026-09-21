@@ -15,7 +15,7 @@ const Hero = ({ name, role, Discription }) => {
           {/* LEFT SIDE */}
           <div className="mb-60">
 
-            <h1 className="mt-4 text-4xl font-bold leading-tight tracking-[0.05em] bg-gradient-to-r from-blue-200 to-purple-900 bg-clip-text text-transparent sm:text-5xl lg:mt-15 lg:text-7xl">
+            <h1 className="mt-13 md:mt-0 text-4xl font-bold leading-tight tracking-[0.05em] bg-gradient-to-r from-blue-200 to-purple-900 bg-clip-text text-transparent sm:text-5xl lg:mt-15 lg:text-7xl">
               Hi, I'm
             </h1>
 
@@ -27,7 +27,7 @@ const Hero = ({ name, role, Discription }) => {
               {role}
             </h2>
 
-            <p className="mt-5 max-w-xl text-sm leading-7 text-slate-300 sm:text-base">
+            <p className="mt-5 max-w-[220px] md:max-w-xl text-sm leading-7 text-slate-300 sm:text-base">
               {Discription}
               <span className="font-semibold text-slate-200">
                 {" "}React.
@@ -60,7 +60,7 @@ const Hero = ({ name, role, Discription }) => {
               TECH STACK
             </p>
 
-            <div className="mt-5 flex flex-wrap items-center gap-x-5 gap-y-5 text-sm text-slate-300 sm:gap-x-6">
+            <div className="mt-5 flex  flex-wrap items-center gap-x-5 gap-y-5 text-sm text-slate-300 sm:gap-x-6">
 
               {/* HTML */}
               <span className="flex flex-col items-center gap-1">

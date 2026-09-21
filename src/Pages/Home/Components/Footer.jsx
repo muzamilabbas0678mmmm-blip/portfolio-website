@@ -1,10 +1,6 @@
 import {
   FaHome,
-  FaUser,
   FaCode,
-  FaFolderOpen,
-  FaReact,
-  FaJsSquare,
   FaGithub,
   FaLinkedin,
   FaWhatsapp,
@@ -60,16 +56,14 @@ const Footer = () => {
           "
         />
 
-        {/* ================= TOP SECTION ================= */}
 
       <div className="grid grid-cols-2 gap-8 px-5 py-10 sm:gap-10 sm:px-8 sm:py-12 lg:grid-cols-4 lg:px-12">
-          {/* ================= EXPLORE ================= */}
 
           <div className="lg:border-r lg:border-blue-400/20 lg:pr-10">
-            <div className="mb-7 justify-center gap-4 sm:justify-start">
-              <div
+            <div className="mb-7 flex items-center gap-4">
+              <div     
                 className="
-                  flex h-10 w-10 items-center justify-center
+                  flex h-10 w-10  justify-center
                   rounded-lg
                   border border-blue-400/50
                   bg-blue-500/10
