@@ -126,7 +126,7 @@ const About = () => {
 
         <div className="mt-8 grid gap-8 md:grid-cols-2">
 
-          <div className="h-80 rounded-3xl border border-slate-800 bg-slate-900/60 p-8">
+          <div className="rounded-3xl border border-slate-800 bg-slate-900/60 p-8">
             <h2 className="mb-4 text-3xl font-bold ">
               Career Focus
             </h2>
@@ -145,7 +145,7 @@ const About = () => {
           </div>
 
 
-          <div className="mt-70 rounded-3xl border border-blue-900/50 bg-gradient-to-br from-blue-950/50 to-purple-950/50 p-8">
+          <div className=" rounded-3xl border border-blue-900/50 bg-gradient-to-br from-blue-950/50 to-purple-950/50 p-8">
             <h2 className="mb-4 text-3xl font-bold ">
               My Approach
             </h2>
@@ -166,7 +166,7 @@ const About = () => {
 
 
         {/* CTA */}
-        <div className="mt-16 rounded-2xl border border-slate-800 bg-gradient-to-r from-blue-950/60 to-purple-900 px-6 py-12 text-center">
+        <div className="mt-10 rounded-2xl border border-slate-800 bg-gradient-to-r from-blue-950/60 to-purple-900 px-6 py-12 text-center">
 
           <h2 className="text-3xl font-bold text-white">
             Want to See What I Build?

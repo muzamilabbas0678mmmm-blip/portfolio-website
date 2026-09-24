@@ -322,7 +322,7 @@ function Contacts() {
                 </a>
 
                 <a
-                  href="#"
+                  href="https://linkedin.com/in/muzamil-abbas-885015327"
                   className="flex h-7 w-7 items-center justify-center rounded-md border border-white/10 bg-white text-slate-900 transition hover:bg-blue-500 hover:text-white"
                 >
                   <FaLinkedinIn size={11} />

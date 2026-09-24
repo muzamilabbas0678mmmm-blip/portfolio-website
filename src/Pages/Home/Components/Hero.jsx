@@ -6,7 +6,7 @@ const Hero = ({ name, role, Discription }) => {
   return (
     <section
   className=" overflow-hidden bg-slate-950 bg-[length:190%_90%] bg-[position:center_50%] bg-no-repeat lg:bg-cover lg:bg-center"
-  style={{ backgroundImage: "url('/profile.png')" }}
+  style={{ backgroundImage: "url('/hero.png')" }}
 >
       <div className="mx-auto flex min-h-screen max-w-7xl items-center px-5 py-17 sm:px-6 lg:px-8">
 
@@ -102,12 +102,12 @@ const Hero = ({ name, role, Discription }) => {
 
             <div className="absolute -bottom-43 -left-20 rounded-2xl border border-slate-400 bg-white px-5 py-4 shadow-20xl">
 
-              <p className="text-xs font-medium text-slate-700">
+              <p className="text-xs font-bold text-slate-700">
                 Currently learning
               </p>
 
-              <p className="mt-1 font-bold text-slate-900">
-                React Development
+              <p className="mt-1 font-semibold text-slate-900">
+                Node.js+express.js
               </p>
 
             </div>

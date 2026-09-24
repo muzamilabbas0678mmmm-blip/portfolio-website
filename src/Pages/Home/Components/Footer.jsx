@@ -187,7 +187,7 @@ const Footer = () => {
             <div className="space-y-4">
               {/* Email */}
               <a
-                href="mailto:muzamilabbas0678mmmm@gmail.com"
+                href="/contact"
                 className="group flex items-center gap-3 text-slate-300 transition hover:text-white"
               >
                 <FaArrowRight className="text-red-400 transition group-hover:translate-x-1" />
@@ -213,7 +213,7 @@ const Footer = () => {
 
               {/* LinkedIn */}
               <a
-                href="#"
+                href="https://linkedin.com/in/muzamil-abbas-885015327"
                 className="group flex items-center gap-3 text-slate-300 transition hover:text-white"
               >
                 <FaArrowRight className="text-cyan-400 transition group-hover:translate-x-1" />
