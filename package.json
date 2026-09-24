@@ -1,5 +1,5 @@
 {
-  "name": "practice-learning",
+  "name": "My Portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@tailwindcss/vite": "^4.3.3",
     "framer-motion": "^13.4.0",
     "react": "^19.2.8",
