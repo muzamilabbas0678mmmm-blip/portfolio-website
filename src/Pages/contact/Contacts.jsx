@@ -78,7 +78,7 @@ function Contacts() {
             {/* Contact Information */}
             <div className="space-y-4">
               {/* Email */}
-              <div className="flex items-center gap-4 rounded-lg border border-blue-400/30 bg-blue-500/10 px-4 py-3 backdrop-blur-md transition duration-300 hover:bg-blue-500/20">
+              <div className="flex items-center gap-4 rounded-lg border border-blue-400/30 bg-blue-500/10 px-3 py-3 backdrop-blur-md transition duration-300 hover:bg-blue-500/20">
                 <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-md border border-blue-400/30 bg-blue-500/20 text-blue-300">
                   <FaEnvelope size={14} />
                 </div>
